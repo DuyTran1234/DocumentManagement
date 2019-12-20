@@ -72,6 +72,26 @@ public class Menu2 {
                     }
                 }
             }
+            else if(choice == 2) {
+                int select = 0;
+                while(true) {
+                    System.out.println("================== Employee ==================");
+                    System.out.println("1. Add a new Employee into database");
+                    System.out.println("2. Edit Employee based on EmployeeID");
+                    System.out.println("3. Delete a record Employee based on EmployeeID");
+                    System.out.println("4. Search Employee based on: ");
+                    System.out.println("0. Back to Information Readers, Employees");
+                    System.out.print("#Select: ");
+                    select = scanner.nextInt();
+                    scanner.nextLine();
+                    if(select == 0) {
+                        break;
+                    }
+                    else if(select == 1) {
+
+                    }
+                }
+            }
         }
     }
 }
