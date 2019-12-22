@@ -88,7 +88,32 @@ public class Menu2 {
                         break;
                     }
                     else if(select == 1) {
-
+                        SetEmployee.addEmployee();
+                    }
+                    else if(select == 2) {
+                        EditEmployee.editEmployee();
+                    }
+                    else if(select == 3) {
+                        DeleteEmployee.deleteEmployee();
+                    }
+                    else if(select == 4) {
+                        System.out.println("============ Search Employee based on ============");
+                        System.out.println("1. Full Name");
+                        System.out.println("2. EmployeeID");
+                        System.out.println("3. Position");
+                        System.out.println("0. Exit");
+                        System.out.println("#Select: ");
+                        int choice1 = scanner.nextInt();
+                        scanner.nextLine();
+                        if(choice1 == 0) {
+                            break;
+                        }
+                        else if(choice1 == 1) {
+                            SearchEmployee.searchEmployeeBasedOnName();
+                        }
+                    }
+                    else {
+                        System.out.println("Wrong input, please enter number 0 -> 4");
                     }
                 }
             }

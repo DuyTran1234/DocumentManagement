@@ -46,4 +46,12 @@ public class Person {
     String getGender() {
         return gender;
     }
+
+    void showPerson() {
+        System.out.println("ID: " + this.getID());
+        System.out.println("Full Name: " + getFullName());
+        System.out.println("Address: " + getAddress());
+        System.out.println("Date of Birth: " + getDOB());
+        System.out.println("Gender: " + getGender());
+    }
 }

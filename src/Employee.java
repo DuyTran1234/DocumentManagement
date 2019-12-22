@@ -26,4 +26,11 @@ public class Employee extends Person {
     void setWorkFlow(int workFlow) {
         this.workFlow = workFlow;
     }
+
+    void showEmployee() {
+        super.showPerson();
+        System.out.println("EmployeeID: " + getEmployeeID());
+        System.out.println("Position: " + getPosition());
+        System.out.println("Work Flow: " + getWorkFlow());
+    }
 }
