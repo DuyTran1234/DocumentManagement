@@ -4,13 +4,13 @@
     <list default="true" id="48e7a137-9776-468d-a3cd-6e0231aaa6d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DocumentsManagement/Menu2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentsManagement/Menu2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentsManagement/SearchReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentsManagement/SearchReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentsManagement/SetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentsManagement/SetReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DocumentsManagement/SearchEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentsManagement/SearchEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DocumentsManagement/SetPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentsManagement/SetPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,22 +93,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="380" key="GridCell.Tab.0.bottom" timestamp="1576942361348">
+    <state x="1086" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1577047829113">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="380" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1576942361348" />
-    <state width="1557" height="380" key="GridCell.Tab.0.center" timestamp="1576942361348">
+    <state x="1086" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1577047829113" />
+    <state width="1557" height="380" key="GridCell.Tab.0.bottom" timestamp="1577065929688">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="380" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1576942361348" />
-    <state width="1557" height="380" key="GridCell.Tab.0.left" timestamp="1576942361348">
+    <state width="1557" height="380" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1577065929688" />
+    <state width="1557" height="380" key="GridCell.Tab.0.center" timestamp="1577065929688">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="380" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1576942361348" />
-    <state width="1557" height="380" key="GridCell.Tab.0.right" timestamp="1576942361348">
+    <state width="1557" height="380" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1577065929688" />
+    <state width="1557" height="380" key="GridCell.Tab.0.left" timestamp="1577065929687">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="380" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1576942361348" />
+    <state width="1557" height="380" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1577065929687" />
+    <state width="1557" height="380" key="GridCell.Tab.0.right" timestamp="1577065929688">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="380" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1577065929688" />
     <state x="508" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1576919198532">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -117,9 +121,9 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1576929571062" />
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1576928455950">
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1577045966333">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1576928455950" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1577045966333" />
   </component>
 </project>

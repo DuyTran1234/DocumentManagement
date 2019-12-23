@@ -111,6 +111,15 @@ public class Menu2 {
                         else if(choice1 == 1) {
                             SearchEmployee.searchEmployeeBasedOnName();
                         }
+                        else if (choice1 == 2) {
+                            SearchEmployee.searchEmployeeBasedOnEmployeeID();
+                        }
+                        else if(choice1 == 3) {
+                            SearchEmployee.searchEmployeeBasedOnPosition();
+                        }
+                        else {
+                            System.out.println("Wrong input, please enter again number 0 -> 3");
+                        }
                     }
                     else {
                         System.out.println("Wrong input, please enter number 0 -> 4");

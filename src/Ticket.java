@@ -3,22 +3,23 @@ import java.util.Date;
 
 public class Ticket {
     private String ticketID;
-    private Date dateBorrow;
-    private Date deadline;
+    private String dateBorrow;
+    private String deadline;
     private String ReaderID;
-    private ArrayList<String> borrowBook = new ArrayList<>(5);
     private String EmployeeID;
     private double deposit;
+    private String[] borrowBook = new String[5];
+    private int amountBook;
 
     public String getTicketID() {
         return ticketID;
     }
 
-    public Date getDateBorrow() {
+    public String getDateBorrow() {
         return dateBorrow;
     }
 
-    public Date getDeadline() {
+    public String getDeadline() {
         return deadline;
     }
 
@@ -26,19 +27,31 @@ public class Ticket {
         return ReaderID;
     }
 
-    public ArrayList<String> getBorrowBook() {
+    public String getEmployeeID() {
+        return EmployeeID;
+    }
+
+    public double getDeposit() {
+        return deposit;
+    }
+
+    public String[] getBorrowBook() {
         return borrowBook;
+    }
+
+    public int getAmountBook() {
+        return amountBook;
     }
 
     public void setTicketID(String ticketID) {
         this.ticketID = ticketID;
     }
 
-    public void setDateBorrow(Date dateBorrow) {
+    public void setDateBorrow(String dateBorrow) {
         this.dateBorrow = dateBorrow;
     }
 
-    public void setDeadline(Date deadline) {
+    public void setDeadline(String deadline) {
         this.deadline = deadline;
     }
 
@@ -46,7 +59,32 @@ public class Ticket {
         ReaderID = readerID;
     }
 
-    public void setBorrowBook(ArrayList<String> borrowBook) {
+    public void setEmployeeID(String employeeID) {
+        EmployeeID = employeeID;
+    }
+
+    public void setDeposit(double deposit) {
+        this.deposit = deposit;
+    }
+
+    public void setBorrowBook(String[] borrowBook) {
         this.borrowBook = borrowBook;
+    }
+
+    public void setAmountBook(int amountBook) {
+        this.amountBook = amountBook;
+    }
+
+    public void showTicket() {
+        System.out.println("Ticket ID : " + this.ticketID);
+        System.out.println("DateBorrow: " + this.dateBorrow);
+        System.out.println("DeadLine: " + this.deadline);
+        System.out.println("ReaderID borrow book: " + this.ReaderID);
+        for(int i = 0; i < borrowBook.length; i++) {
+            System.out.println("BorrowBook " + (i + 1) + " : " + borrowBook[i]);
+        }
+        System.out.println("EmployeeID give borrow book: " + this.EmployeeID);
+        System.out.println("Deposit: " + this.deposit + " $");
+        System.out.println("Amount Book: " + this.amountBook);
     }
 }

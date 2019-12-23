@@ -21,6 +21,9 @@ public class Main {
             else if(choice == 2) {
                 Menu2.menu2();
             }
+            else if(choice == 3) {
+                Menu3.menu3();
+            }
             else if(choice == 0) {
                 break;
             }

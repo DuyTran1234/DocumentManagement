@@ -26,8 +26,8 @@ public class SetPerson {
                 if(choice.equals("Y")) {
                     check = true;
                     person.setID(id);
+                    break;
                 }
-                break;
             }
             else if(ConnectSQL.selectSQL(sql1).next() && !ConnectSQL.selectSQL(sql2).next()) {
                 System.out.println("Person ID exists in Person database, proceed import information: ");
